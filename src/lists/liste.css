@@ -1,0 +1,54 @@
+.list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-height: 60%;
+    padding-bottom: 10px;
+}
+
+.empty {
+    height: 30px;
+}
+
+.ligne {
+    display: inline-block;
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.lignesmall {
+    display: inline-block;
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+.lignesmall:hover {
+    color: wheat;
+}
+
+.ligneAll {
+    display: inline-block;
+}
+
+.carre2 {
+    flex-direction: column;
+    display: flex;
+    background-color: rgb(45, 109, 121);
+    height: fit-content;
+    max-height: 50%;
+    width: 55%;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 15px;
+    box-shadow: 10px -10px rgb(9, 92, 92);
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
